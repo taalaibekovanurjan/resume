@@ -1,0 +1,182 @@
+* {
+  margin: 1% 1% 2%;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../img/strahovoy-yurist.jpg);
+  margin-left: auto;
+  margin-top: 0;
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 600px;
+}
+.navbar img {
+  width: 1400px;
+  height: 600px;
+}
+.navbar h1 {
+  color: black;
+  font-family: Platypi;
+  margin-top: 270px;
+  margin-left: 50px;
+  font-size: 30px;
+  width: 500px;
+  display: flex;
+  align-self: end;
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+}
+
+.navbar_ssylki {
+  width: 700px;
+  font-size: 20px;
+  font-family: Roboto;
+  display: flex;
+}
+/* .navbar_ssylki img {
+  margin-top: -10px;
+} */
+.navbar_ssylki a:hover {
+  color: rgb(58, 43, 226);
+}
+.navbar_ssylki a img {
+  width: 20px;
+  height: 20px;
+  margin-top: 18px;
+}
+
+.info_about h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(7, 3, 69);
+  font-size: 35px;
+  font-family: Platypi;
+}
+.info_about_img_p {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 600px;
+}
+.info_about_img {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  height: 600px;
+}
+
+.info_about p {
+  font-size: 35px;
+
+  align-content: center;
+  color: rgb(2, 35, 70);
+  width: 500px;
+  height: 600px;
+  padding-left: 40px;
+}
+.education h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(7, 3, 69);
+  font-size: 35px;
+  font-family: Platypi;
+}
+.education_p {
+  font-family: Roboto;
+  font-size: 25px;
+  color: rgb(1, 1, 68);
+}
+.experience h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(7, 3, 69);
+  font-size: 35px;
+  font-family: Platypi;
+}
+.experience_p {
+  font-family: Roboto;
+  font-size: 23px;
+  color: rgb(1, 1, 68);
+  width: 500px;
+  height: 600px;
+}
+.experience_p_img {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 600px;
+}
+.experience_img {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  height: 500px;
+}
+.footer {
+  background-color: #1a0642;
+  margin: -50px;
+}
+.footer_p_img {
+  margin-top: 20px;
+  margin-left: 50px;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  width: 1000px;
+  display: flex;
+}
+.footer_ssylki a img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: end;
+}
+@media all and (max-width: 1024px) {
+  .nav__inner_list {
+    margin-left: 95px;
+  }
+
+  .navbar {
+    margin-left: -250px;
+  }
+
+  .navbar_ssylki {
+    width: 700px;
+    height: 172px;
+  }
+  #logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+  }
+  h1 {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .info_about {
+    font-size: 40px;
+    margin-right: 20px;
+    text-align: center;
+    margin-left: 200px;
+    margin: 90px;
+  }
+
+  .info_about_img {
+    width: 60%;
+    margin-right: -200px;
+    left: 70px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .div {
+    width: 30%;
+    margin-right: 50px;
+  }
+}
